@@ -25,7 +25,7 @@ public class Kyrsovaya {
         String Astring_encryptoftext = a.encrypt(Cstring_encryptoftext);
         String Astring_decryptoftext_atbash = a.decrypt(Astring_encryptoftext);
         String Astring_decryptoftext_cesar = b.decrypt(Astring_decryptoftext_atbash, 1, 4);
-        System.out.println("Слово для шифровки: " + Cstring_in + ".\nШифрованное слово: "
+        System.out.println("Слово для шифровки: \n" + Cstring_in + ".\rШифрованное слово: "
                 + Astring_encryptoftext + ".\nРасшифрованное слово: " + Astring_decryptoftext_cesar + ".");
     }
 }
