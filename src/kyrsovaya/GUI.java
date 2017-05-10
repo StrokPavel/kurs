@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package kyrsovaya;
 
 import java.awt.event.ActionEvent;
@@ -13,10 +8,6 @@ import javax.swing.JLabel;
 import javax.swing.JTextField;
 import kyrsovaya.*;
 
-/**
- *
- * @author DELL
- */
 public class GUI extends JFrame {
 
     JLabel Label1, Label2, Label3, Label4;
@@ -47,7 +38,7 @@ public class GUI extends JFrame {
         add(Label4);
 
         Button1 = new JButton("Зашифровать");
-        Button1.setBounds(10, 30, 150, 100);
+        Button1.setBounds(10, 50, 150, 50);
         add(Button1);
         Button1.addActionListener(event);
 
