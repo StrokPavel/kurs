@@ -12,12 +12,9 @@ public class Atbash {
         for (char c = 'а'; c <= 'я'; c++) {
             alphabet.add(c);
         }
-        for (char c = 'А'; c <= 'Я'; c++) {
-            alphabet.add(c);
-        }
-        for (char c = '0'; c <= '9'; c++) {
-            alphabet.add(c);
-        }
+//        for (char c = 'А'; c <= 'Я'; c++) {
+//            alphabet.add(c);
+//        }        
         for (char c : PUNCTUATION) {
             alphabet.add(c);
         }
